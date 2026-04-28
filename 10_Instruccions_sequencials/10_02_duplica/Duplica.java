@@ -15,12 +15,12 @@ public class Duplica {
         nombreADuplicar = Integer.parseInt(args[0]);
 
         // calcula el doble
-        nombreDuplicat =  /*█████*/;
+        nombreDuplicat =  nombreADuplicar *2;
 
         // mostra resultats
         System.out.print("El doble de ");
-        System.out.print(/*█████*/);
+        System.out.print(nombreADuplicar);
         System.out.print(" és ");
-        System.out.println(/*█████*/);
+        System.out.println(nombreDuplicat);
     }
 }
